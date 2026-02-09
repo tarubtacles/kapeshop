@@ -27,10 +27,6 @@ nav a {
     font-weight: bold;
 }
 
-nav a:hover {
-    text-decoration: underline;
-}
-
 /* Hero */
 .hero {
     text-align: center;
@@ -39,20 +35,14 @@ nav a:hover {
     color: white;
 }
 
-/* Sections */
+/* Section */
 .section {
     padding: 60px 20px;
     text-align: center;
 }
 
-.section-subtitle {
-    color: #777;
-    margin-bottom: 20px;
-}
-
-/* Categories */
 .menu-categories {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .category-btn {
@@ -77,16 +67,36 @@ nav a:hover {
     padding: 20px;
 }
 
+.product-card {
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-card button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    border: none;
+    background: #4b2e1e;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 /* Contact */
 .contact-banner {
     background: #4b2e1e;
     color: white;
     padding: 40px;
     border-radius: 15px;
-}
-
-.contact-item {
-    margin: 10px 0;
 }
 
 /* Footer */
@@ -109,18 +119,11 @@ footer {
     background: white;
     width: 90%;
     max-width: 400px;
-    margin: 80px auto;
+    margin: 100px auto;
     padding: 25px;
     border-radius: 15px;
 }
 
-.close {
-    float: right;
-    cursor: pointer;
-    font-size: 22px;
-}
-
-/* Button */
 .checkout-btn {
     width: 100%;
     padding: 12px;
@@ -128,6 +131,5 @@ footer {
     color: white;
     border: none;
     border-radius: 10px;
-    margin-top: 20px;
-    cursor: pointer;
+    margin-top: 15px;
 }
