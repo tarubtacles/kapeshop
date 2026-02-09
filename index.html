@@ -43,28 +43,16 @@
         <div class="contact-banner">
             <h2>Get In Touch</h2>
             <div class="contact-info">
-                <div class="contact-item">
-                    <span class="icon">📧</span>
-                    <span>hamdcoffee@gmail.com</span>
-                </div>
-                <div class="contact-item">
-                    <span class="icon">📱</span>
-                    <span>0947-354-2181</span>
-                </div>
-                <div class="contact-item">
-                    <span class="icon">📘</span>
-                    <span>facebook.com/hamdcoffee</span>
-                </div>
-                <div class="contact-item">
-                    <span class="icon">📍</span>
-                    <span>Brgy. San Juan, Batangas City</span>
-                </div>
+                <div class="contact-item">📧 hamdcoffee@gmail.com</div>
+                <div class="contact-item">📱 0947-354-2181</div>
+                <div class="contact-item">📘 facebook.com/hamdcoffee</div>
+                <div class="contact-item">📍 Brgy. San Juan, Batangas City</div>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>© 2026 HAMD Coffee | Corbito, Dayao, Obidos, Tolentino, Dean | Crafted with ❤️ in Batangas City</p>
+        <p>© 2026 HAMD Coffee | Corbito, Dayao, Obidos, Tolentino, Dean</p>
     </footer>
 
     <!-- Cart Modal -->
@@ -72,46 +60,19 @@
         <div class="modal-content cart-modal">
             <span class="close" onclick="closeCart()">&times;</span>
             <h2>🛒 Your Cart</h2>
-            
-            <div class="cart-items-container">
-                <ul id="cartItemsList">
-                    <li class="empty-cart">Your cart is empty</li>
-                </ul>
-            </div>
-            
+            <ul id="cartItemsList">
+                <li class="empty-cart">Your cart is empty</li>
+            </ul>
+
             <div class="cart-summary">
-                <div class="summary-row">
-                    <span>Subtotal:</span>
-                    <span>₱<span id="subtotal">0</span></span>
-                </div>
-                <div class="summary-row total-row">
-                    <span>Total:</span>
-                    <span>₱<span id="modalTotal">0</span></span>
-                </div>
+                <p>Subtotal: ₱<span id="subtotal">0</span></p>
+                <p><strong>Total: ₱<span id="modalTotal">0</span></strong></p>
             </div>
-            
-            <div class="payment-section">
-                <h3>Payment Method</h3>
-                <div class="payment-options">
-                    <label class="payment-option">
-                        <input type="radio" name="payment" value="cash" checked>
-                        <span>💵 Cash</span>
-                    </label>
-                    <label class="payment-option">
-                        <input type="radio" name="payment" value="gcash">
-                        <span>📱 GCash</span>
-                    </label>
-                    <label class="payment-option">
-                        <input type="radio" name="payment" value="card">
-                        <span>💳 Credit/Debit Card</span>
-                    </label>
-                </div>
-            </div>
-            
+
             <button class="checkout-btn" onclick="checkout()">Checkout</button>
         </div>
     </div>
 
     <script src="script.js"></script>
 </body>
-                      </html>
+</html>
