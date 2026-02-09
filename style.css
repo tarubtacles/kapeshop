@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f6efe9;
+    color: #3b2f2f;
+}
+
+/* Header */
+header {
+    background: #4b2e1e;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: url("https://images.unsplash.com/photo-1509042239860-f550ce710b93") center/cover;
+    color: white;
+}
+
+/* Sections */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section-subtitle {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Categories */
+.menu-categories {
+    margin-bottom: 30px;
+}
+
+.category-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background: #c7a17a;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.category-btn.active {
+    background: #4b2e1e;
+}
+
+/* Products */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Contact */
+.contact-banner {
+    background: #4b2e1e;
+    color: white;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.contact-item {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background: #2b1a12;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+}
+
+.modal-content {
+    background: white;
+    width: 90%;
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+/* Button */
+.checkout-btn {
+    width: 100%;
+    padding: 12px;
+    background: #4b2e1e;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
